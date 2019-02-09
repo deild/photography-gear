@@ -1,0 +1,8 @@
+baseURL = "http://www.github.io/photograpy-gear"
+languageCode = "en-us"
+title = "Matériels photographique"
+theme =  "book"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+disablePathToLower = true
+enableGitInfo = true
