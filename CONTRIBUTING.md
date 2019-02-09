@@ -11,4 +11,4 @@ Conseils pour les contributeurs
 
 [git-flow]: http://nvie.com/posts/a-successful-git-branching-model/
 [GitHub Issues]: https://github.com/deild/photography-gear/issues
-[Charte Contributeurs]: (https://github.com/deild/photography-gear/blob/master/CODE_OF_CONDUCT.md)
+[Charte Contributeurs]: https://github.com/deild/photography-gear/blob/master/CODE_OF_CONDUCT.md
