@@ -9,6 +9,16 @@ Conseils pour les contributeurs
 * Signaler les bogues à l'aide de [GitHub Issues].
 * Première contribution à ce projet ? Lisez notre [Charte Contributeurs].
 
+## Signaler les problèmes/nouvelles fonctionnalités
+
+Lorsque vous signalez un bogue, demandez une nouvelle fonctionnalité ou une amélioration, veuillez suivre les directives suivantes.
+
+* Lorsque vous signalez un bogue, démarrez le titre avec `[BUG]`
+* Lorsque vous demandez une nouvelle fonctionnalité ou une amélioration, commencez le titre avec `[RFC]`
+* Essayez d'être aussi précis que possible dans la description du problème
+
+Dès qu'un des contributeurs verra cette demande, il évaluera le problème, ajoutera les étiquettes appropriées, les jalons et supprimera le `[BUG]`, `[RFC]` du titre.
+
 [git-flow]: http://nvie.com/posts/a-successful-git-branching-model/
 [GitHub Issues]: https://github.com/deild/photography-gear/issues
 [Pull requests]: https://github.com/deild/photography-gear/pulls
