@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/54c44f41-0dfe-4c48-83a0-1f8c7313ec2e/deploy-status)](https://app.netlify.com/sites/smur-photography-gear/deploys)
+
 ## Versionnement
 
 > Un descriptif de la politique de gestion de version et d'implémentation.
