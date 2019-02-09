@@ -1,6 +1,6 @@
 baseURL = "https://smur-photography-gear.netlify.com/"
 languageCode = "en-us"
-title = "Matériels photographique"
+title = "Mon matériel de photographie"
 theme =  "book"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
