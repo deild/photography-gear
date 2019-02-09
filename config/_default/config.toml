@@ -1,4 +1,4 @@
-baseURL = "http://www.github.io/photograpy-gear"
+baseURL = "http://photography-gear.netlify.com/"
 languageCode = "en-us"
 title = "Matériels photographique"
 theme =  "book"
@@ -6,3 +6,16 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
 disablePathToLower = true
 enableGitInfo = true
+
+[params]
+    # show or hide table of contents for page
+    BookShowToC = true
+    
+    # Set bundle to render side menu
+    # if not specified file structure and weights will be used
+    BookMenuBundle = "/docs/menu"
+
+    # Set source repository location.
+    # Used for 'Last Modified' and 'Edit this page' links.
+    BookRepo = "https://github.com/deild/photography-gear"
+

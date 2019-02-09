@@ -2,11 +2,13 @@
 headless: true
 ---
 
-- [Menu](/docs/)
-  - [Boitiers](/docs/appareilphoto)
-  - [Accessoires](/docs/accessoires)
+- [Boitiers](/docs/appareilphoto)
+- [Accessoires](/docs/accessoires)
+- [Bagageries](/docs/bagageries)
+- [Objectifs](/docs/objectifs)
+- [Batteries](/docs/batteries)
+- [Cartes mémoire](/docs/cartes)
+- [Materiels Informatique](/docs/materielinfo)
+- [Notes](/docs/notes)
+- [Logiciels](/docs/logiciels)
 
-<!---
-accessoires.md    bagageries.md     cartes.md         materielinfo.md   notes.md
-appareilphoto.md  batteries.md      logiciels.md      menu/             objectifs.md
---->
