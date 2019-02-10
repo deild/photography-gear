@@ -7,9 +7,13 @@ Tous les changements notables apportés à ce projet seront documentés dans ce 
  
 > 2019-02-10
 
+### Améliorations
+ 
+* ajouter des outils pour la release ([b8fb4d8](https://github.com/deild/photography-gear/commit/b8fb4d8))
+
 ### Documentations
  
-* standardiser le journal des modifications ([33d1568](https://github.com/deild/photography-gear/commit/33d1568))
+* standardiser le journal des modifications ([2bdc564](https://github.com/deild/photography-gear/commit/2bdc564))
 
 
 <a name="v0.1.0"></a>
