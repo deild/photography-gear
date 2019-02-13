@@ -2,6 +2,20 @@
  
 Tous les changements notables apportés à ce projet seront documentés dans ce fichier.
 
+<a name="v0.1.2"></a>
+## [v0.1.2](https://github.com/deild/photography-gear/compare/v0.1.1...v0.1.2)
+ 
+> 2019-02-13
+
+### Corrections de bugs
+ 
+* corrige make post-release ([8446ccd](https://github.com/deild/photography-gear/commit/8446ccd))
+
+### Documentations
+ 
+* documentation github ([f96c6f6](https://github.com/deild/photography-gear/commit/f96c6f6))
+
+
 <a name="v0.1.1"></a>
 ## [v0.1.1](https://github.com/deild/photography-gear/compare/v0.1.0...v0.1.1)
  
