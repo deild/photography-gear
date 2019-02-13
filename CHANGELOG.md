@@ -2,6 +2,12 @@
  
 Tous les changements notables apportés à ce projet seront documentés dans ce fichier.
 
+<a name="v0.1.3"></a>
+## [v0.1.3](https://github.com/deild/photography-gear/compare/v0.1.2...v0.1.3)
+ 
+> 2019-02-13
+
+
 <a name="v0.1.2"></a>
 ## [v0.1.2](https://github.com/deild/photography-gear/compare/v0.1.1...v0.1.2)
  
@@ -9,11 +15,11 @@ Tous les changements notables apportés à ce projet seront documentés dans ce 
 
 ### Corrections de bugs
  
-* corrige make post-release ([8446ccd](https://github.com/deild/photography-gear/commit/8446ccd))
+* corrige make post-release ([a5e1d9c](https://github.com/deild/photography-gear/commit/a5e1d9c))
 
 ### Documentations
  
-* documentation github ([f96c6f6](https://github.com/deild/photography-gear/commit/f96c6f6))
+* documentation github ([bc83194](https://github.com/deild/photography-gear/commit/bc83194))
 
 
 <a name="v0.1.1"></a>
@@ -23,11 +29,11 @@ Tous les changements notables apportés à ce projet seront documentés dans ce 
 
 ### Améliorations
  
-* ajouter des outils pour la release ([b8fb4d8](https://github.com/deild/photography-gear/commit/b8fb4d8))
+* ajouter des outils pour la release ([1f12190](https://github.com/deild/photography-gear/commit/1f12190))
 
 ### Documentations
  
-* standardiser le journal des modifications ([2bdc564](https://github.com/deild/photography-gear/commit/2bdc564))
+* standardiser le journal des modifications ([a50b7af](https://github.com/deild/photography-gear/commit/a50b7af))
 
 
 <a name="v0.1.0"></a>
