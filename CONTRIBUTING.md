@@ -3,7 +3,7 @@ Conseils pour les contributeurs
 
 * S'il vous plaît **faites des requêtes de tirage ([Pull requests]) sur la branche `develop`, pas `master`**. Ce projet suit
   un modèle de ramification [git-flow], dans lequel le développement se fait sur la branche `develop`
-  et est par la suite fusionnée sur `master` pour les versions.
+  et est par la suite fusionnée sur `master` pour la livraion des versions.
 * Si vous faites des **changements dans des fichiers pour lesquels l'integration Travis CI n'est pas pertinent**,
   veuillez **ajouter `[ci skip]` à la fin du message de livraison**.
 * Signaler les bogues à l'aide de [GitHub Issues].
