@@ -8,6 +8,9 @@ V_PREFIX := v
 VERSION := $(V_PREFIX)$(BASE_STRING)
 
 # use https://github.com/git-chglog/git-chglog
+.PHONY: build
+build: # utilisé pour construire le site
+	@hugo --gc --minify --quiet
 
 .PHONY: bump
 bump: # incremente la version en fonction de bump=<patch|minor|major>
@@ -23,7 +26,7 @@ else
 endif
 
 .PHONY: release
-release: bump ## make release [bump=<patch|minor|major>] [commit=<hash>]
+release: build bump ## make release [bump=<patch|minor|major>] [commit=<hash>]
 	$(eval VERSION := $(V_PREFIX)$(V_MAJOR).$(V_MINOR).$(V_PATCH))
 	@git checkout -b release/$(VERSION) $(commit)
 	@echo "$(V_MAJOR).$(V_MINOR).$(V_PATCH)" > VERSION
@@ -45,16 +48,18 @@ post-release: ## met à jour la note de publication de la version
 .PHONY: finish-release
 finish-release: ## cloture la branche de publication
 	@git checkout release/$(VERSION)
-	@git tag $(VERSION)
+	@git tag -a $(VERSION) -m "$$(git-chglog --silent --next-tag $(VERSION) $(VERSION))"
 	@git checkout master
 	@git merge release/$(VERSION)
-	@git push --tags origin master
+	@git push --follow-tags origin master
 	@git branch -d release/$(VERSION)
+	@echo '    Warn: vous devez supprimer la branche distante si nécessaire, $$ git push origin :release/$(VERSION)'
 
 .PHONY: version
 version: ## affiche la version en cours 
 	@echo $(VERSION)
 
+.PHONY: help
 help: ## affiche la description de chaque cible (Defaut)
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
 
