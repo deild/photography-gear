@@ -25,8 +25,8 @@ else
     $(eval V_PATCH := $(shell echo "$$(expr $(V_PATCH) + 1)"))
 endif
 
-.PHONY: release
-release: build bump ## make release [bump=<patch|minor|major>] [commit=<hash>]
+.PHONY: prepare-release
+prepare-release: build bump ## make release [bump=<patch|minor|major>] [commit=<hash>]
 	$(eval VERSION := $(V_PREFIX)$(V_MAJOR).$(V_MINOR).$(V_PATCH))
 	@git checkout -b release/$(VERSION) $(commit)
 	@echo "$(V_MAJOR).$(V_MINOR).$(V_PATCH)" > VERSION
@@ -36,22 +36,18 @@ release: build bump ## make release [bump=<patch|minor|major>] [commit=<hash>]
 	@git commit -m "chore(release): $(VERSION)"
 
 # use https://github.com/deild/gothub
-.PHONY: post-release
-post-release: ## met à jour la note de publication de la version
-	gothub edit \
-    --user $(GH_USER) \
-    --repo $(GH_REPO) \
-    --tag $(VERSION) \
-    --name $(VERSION) \
-	--description "$$(git-chglog --silent $(VERSION))"
-
 .PHONY: finish-release
-finish-release: ## cloture la branche de publication
+finish-release: ## cloture la branche de publication, crée et publie le tag et la release
 	@git checkout release/$(VERSION)
-	@git tag -a $(VERSION) -m "$$(git-chglog --silent --next-tag $(VERSION) $(VERSION))"
+	@git tag -a $(VERSION) -m $(VERSION)
 	@git checkout master
 	@git merge release/$(VERSION)
 	@git push --follow-tags origin master
+	@gothub release \
+    --user $(GH_USER) \
+    --repo $(GH_REPO) \
+    --tag $(VERSION) \
+	--description "$$(git-chglog --silent $(VERSION))"
 	@git branch -d release/$(VERSION)
 	@echo '    Warn: vous devez supprimer la branche distante si nécessaire, $$ git push origin :release/$(VERSION)'
 
