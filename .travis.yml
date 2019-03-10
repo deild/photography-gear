@@ -1,11 +1,12 @@
 language: minimal
 os: osx
 before_script:
-    - brew update && brew install hugo
+  - brew update && brew install hugo
 script:
   - hugo --gc --minify
 branches:
   only:
-    - master
-    - develop
-
+  - master
+  - /^release.*$/
+  - /^feature.*$/
+  - /^hotfix.*$/  
