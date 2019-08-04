@@ -1,6 +1,4 @@
-language: go
-go:
-    - 1.12.x
+language: minimal
 install:
   - curl -fLo "$HOME/bin/hugo_extended_Linux-64bit.tar.gz" --create-dirs https://github.com/gohugoio/hugo/releases/download/v0.56.3/hugo_extended_0.56.3_Linux-64bit.tar.gz
   - tar -xvzf $HOME/bin/hugo_extended_Linux-64bit.tar.gz -C $HOME/bin
@@ -8,7 +6,7 @@ install:
 script:
   - $HOME/bin/hugo --gc --minify
 before_deploy:
-  - printf '# Release Notes\n\n' > BODY.md
+  - printf '# Journal des modification\n\nTous les changements notables apportés à ce projet seront documentés à ce lien.\n\n' > BODY.md
   - if [[ $(git tag -l '*' | wc -l) == "1" ]]; then
       echo "See [Changelog](https://github.com/deild/photography-gear/commits/$TRAVIS_TAG)" >> BODY.md;
     else
@@ -37,3 +35,4 @@ branches:
   - /^release.*$/
   - /^feature.*$/
   - /^hotfix.*$/
+  - /^v[0-9]+\.[0-9]+\.[0-9]+$/
