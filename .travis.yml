@@ -6,7 +6,7 @@ install:
 script:
   - $HOME/bin/hugo --gc --minify
 before_deploy:
-  - printf '\# Journal des modification\n\n' > BODY.md
+  - printf 'Journal des modification\n\n' > BODY.md
   - if [[ $(git tag -l '*' | wc -l) == "1" ]]; then
       echo "[$TRAVIS_TAG](https://github.com/deild/photography-gear/commits/$TRAVIS_TAG)" >> BODY.md;
     else
