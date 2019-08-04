@@ -2,16 +2,11 @@ language: go
 go:
     - 1.12.x
 install:
-  - mkdir $HOME/src
-  - cd $HOME/src
-  - git clone https://github.com/gohugoio/hugo.git
-  - cd hugo
-  - go install --tags extended
-  - cd $TRAVIS_BUILD_DIR
-before_script:
-  - hugo version
+  - curl -fLo "$HOME/bin/hugo_extended_Linux-64bit.tar.gz" --create-dirs https://github.com/gohugoio/hugo/releases/download/v0.56.3/hugo_extended_0.56.3_Linux-64bit.tar.gz
+  - tar -xvzf $HOME/bin/hugo_extended_Linux-64bit.tar.gz -C $HOME/bin
+  - $HOME/bin/hugo version
 script:
-  - hugo --gc --minify
+  - $HOME/bin/hugo --gc --minify
 before_deploy:
   - printf '# Release Notes\n\n' > BODY.md
   - if [[ $(git tag -l '*' | wc -l) == "1" ]]; then
