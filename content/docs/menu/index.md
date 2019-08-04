@@ -1,14 +1,14 @@
 ---
+title: Mon matériel de photographie
 headless: true
 ---
 
-- [Boitiers](/docs/appareilphoto)
+- [Boitiers](/docs/cameras)
 - [Accessoires](/docs/accessoires)
-- [Bagageries](/docs/bagageries)
-- [Objectifs](/docs/objectifs)
-- [Batteries](/docs/batteries)
-- [Cartes mémoire](/docs/cartes)
+- [Sacs & Courroies](/docs/bags-straps)
+- [Objectifs](/docs/lenses)
+- [Batteries & Grips](/docs/battery-grips)
+- [Cartes mémoire](/docs/memory-cards)
 - [Materiels Informatique](/docs/materielinfo)
 - [Notes](/docs/notes)
-- [Logiciels](/docs/logiciels)
-
+- [Logiciels](/docs/software)

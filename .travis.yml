@@ -1,11 +1,13 @@
-language: minimal
-before_install:
-  - sudo apt-get install build-essential curl file git
+language: go
+go:
+    - 1.12.x
 install:
-  - sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
-  - eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
-  - echo "eval \$($(brew --prefix)/bin/brew shellenv)" >>~/.profile
-  - brew update && brew install hugo
+  - mkdir $HOME/src
+  - cd $HOME/src
+  - git clone https://github.com/gohugoio/hugo.git
+  - cd hugo
+  - go install
+  - cd $TRAVIS_BUILD_DIR
 script:
   - hugo --gc --minify
 before_deploy:
