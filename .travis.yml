@@ -8,6 +8,30 @@ install:
   - brew update && brew install hugo
 script:
   - hugo --gc --minify
+before_deploy:
+  - printf '# Release Notes\n\n' > BODY.md
+  - if [[ $(git tag -l '*' | wc -l) == "1" ]]; then
+      echo "See [Changelog](https://github.com/deild/photography-gear/commits/$TRAVIS_TAG)" >> BODY.md;
+    else
+      echo "See [Changelog](https://github.com/deild/photography-gear/compare/$(git tag -l '*' | tail -n2 | head -n1)...$TRAVIS_TAG)" >> BODY.md;
+    fi
+  - export BODY=$(<BODY.md)
+  - tar -czf www.tar.xz public/
+  - sha256sum www.tar.xz > www.tar.xz.sha256
+deploy:
+  provider: releases
+  overwrite: true
+  api_key: $GITHUB_TOKEN
+  file_glob: true
+  file:
+    - "*.tar.xz"
+    - "*.sha256"
+  skip_cleanup: true
+  body: $BODY
+  on:
+    repo: deild/photography-gear
+    tags: true
+
 branches:
   only:
   - master

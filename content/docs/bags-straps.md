@@ -1,4 +1,4 @@
-# Bagageries
+# Sacs & Courroies
 
 - Sac à dos LOWEPRO ProTactic 350 AW (20L?)
 - Sac à dos Randonnée LOWEPRO Rover Pro 35L AW (35L)
@@ -9,4 +9,5 @@
 - Sac à dos F-Stop Loka UL (37L)
 - Sac Chullanka Mercantour (16L)
 - Sac Osprey Talon 22
-
+- BLACKRAPID Courroie Acces Rapide RS-W1
+- BLACKRAPID Yetie Small

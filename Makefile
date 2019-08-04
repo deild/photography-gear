@@ -7,7 +7,6 @@ V_PATCH = $(shell echo $(BASE_STRING) | cut -d. -f3)
 V_PREFIX := v
 VERSION := $(V_PREFIX)$(BASE_STRING)
 
-# use https://github.com/git-chglog/git-chglog
 .PHONY: build
 build: # utilisé pour construire le site
 	@hugo --gc --minify --quiet
@@ -25,6 +24,7 @@ else
     $(eval V_PATCH := $(shell echo "$$(expr $(V_PATCH) + 1)"))
 endif
 
+# use https://github.com/git-chglog/git-chglog
 .PHONY: prepare-release
 prepare-release: build bump ## make release [bump=<patch|minor|major>] [commit=<hash>]
 	$(eval VERSION := $(V_PREFIX)$(V_MAJOR).$(V_MINOR).$(V_PATCH))
@@ -49,10 +49,10 @@ finish-release: ## cloture la branche de publication, crée et publie le tag et 
     --tag $(VERSION) \
 	--description "$$(git-chglog --silent $(VERSION))"
 	@git branch -d release/$(VERSION)
-	@echo '    Warn: vous devez supprimer la branche distante si nécessaire, $$ git push origin :release/$(VERSION)'
+	@echo '    [WARN] vous devez supprimer la branche distante si nécessaire, $$ git push origin :release/$(VERSION)'
 
 .PHONY: version
-version: ## affiche la version en cours 
+version: ## affiche la version en cours
 	@echo $(VERSION)
 
 .PHONY: help
