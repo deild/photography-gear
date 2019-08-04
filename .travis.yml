@@ -6,8 +6,10 @@ install:
   - cd $HOME/src
   - git clone https://github.com/gohugoio/hugo.git
   - cd hugo
-  - go install
+  - go install --tags extended
   - cd $TRAVIS_BUILD_DIR
+before_script:
+  - hugo version
 script:
   - hugo --gc --minify
 before_deploy:
