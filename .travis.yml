@@ -12,29 +12,26 @@ script:
 jobs:
   include:
     - stage: 'deploy releases'
-      before_deploy:
-      - printf '# Journal des modification\n\n' > BODY.md
-      - if [[ $(git tag -l '*' | wc -l) == "1" ]]; then
-          echo "[$TRAVIS_TAG](https://github.com/deild/photography-gear/commits/$TRAVIS_TAG)" >> BODY.md;
-        else
-          echo "[$TRAVIS_TAG](https://github.com/deild/photography-gear/compare/$(git tag -l '*' | tail -n2 | head -n1)...$TRAVIS_TAG)" >> BODY.md;
-        fi
-      - export BODY=$(<BODY.md)
-      - tar -czf www.tar.xz public/
-      - sha256sum www.tar.xz > www.tar.xz.sha256
-      deploy:
-        provider: releases
-        overwrite: true
-        api_key: $GITHUB_TOKEN
-        file_glob: true
-        file:
-          - "*.tar.xz"
-          - "*.sha256"
-        skip_cleanup: true
-        body: $BODY
-        on:
-          repo: deild/photography-gear
-          tags: true
+      before_script:
+        - sed -i -e "s/SHA/$TRAVIS_TAG/g" index.html
+        - echo '# Journal des modifications' > BODY.md
+        - echo "" >> BODY.md
+        - if [[ $(git tag -l '*' | wc -l) == "1" ]]; then
+            echo "See [Changelog](https://github.com/deild/photography-gear/commits/$TRAVIS_TAG)" >> BODY.md;
+          else
+            echo "See [Changelog](https://github.com/deild/photography-gear/compare/$(git tag -l '*' | tail -n2 | head -n1)...$TRAVIS_TAG)" >> BODY.md;
+          fi
+        - curl -fLo "$HOME/bin/gothub.bz2" --create-dirs https://github.com/deild/gothub/releases/download/v0.8.0/linux-amd64-gothub.bz2
+        - bunzip2 $HOME/bin/gothub.bz2
+        - chmod +x $HOME/bin/gothub
+        - $HOME/bin/gothub --version
+        - tar -czf www.tar.xz public/
+        - sha256sum www.tar.xz > www.tar.xz.sha256
+      script:
+        - $HOME/bin/gothub release -u deild -r photography-gear -t $TRAVIS_TAG -n $TRAVIS_TAG -d - < BODY.md
+        - $HOME/bin/gothub upload -u deild -r photography-gear -t $TRAVIS_TAG -n "www.tar.xz" -f www.tar.xz -R
+        - $HOME/bin/gothub upload -u deild -r photography-gear -t $TRAVIS_TAG -n "www.tar.xz.sha256" -f www.tar.xz.sha256 -R
+    - stage: 'deploy releases'
 
 branches:
   only:
