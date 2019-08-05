@@ -12,8 +12,7 @@ script:
 jobs:
   include:
     - stage: 'deploy releases'
-      before_script:
-        - sed -i -e "s/SHA/$TRAVIS_TAG/g" index.html
+      after_success:
         - echo '# Journal des modifications' > BODY.md
         - echo "" >> BODY.md
         - if [[ $(git tag -l '*' | wc -l) == "1" ]]; then
@@ -27,11 +26,9 @@ jobs:
         - $HOME/bin/gothub --version
         - tar -czf www.tar.xz public/
         - sha256sum www.tar.xz > www.tar.xz.sha256
-      script:
         - $HOME/bin/gothub release -u deild -r photography-gear -t $TRAVIS_TAG -n $TRAVIS_TAG -d - < BODY.md
         - $HOME/bin/gothub upload -u deild -r photography-gear -t $TRAVIS_TAG -n "www.tar.xz" -f www.tar.xz -R
         - $HOME/bin/gothub upload -u deild -r photography-gear -t $TRAVIS_TAG -n "www.tar.xz.sha256" -f www.tar.xz.sha256 -R
-    - stage: 'deploy releases'
 
 branches:
   only:
