@@ -1,14 +1,15 @@
 language: minimal
-stages:
-  - test
-  - name: 'deploy releases'
-    if: tag IS present
 install:
   - curl -fLo "$HOME/bin/hugo_extended_Linux-64bit.tar.gz" --create-dirs https://github.com/gohugoio/hugo/releases/download/v0.56.3/hugo_extended_0.56.3_Linux-64bit.tar.gz
   - tar -xzf $HOME/bin/hugo_extended_Linux-64bit.tar.gz -C $HOME/bin
   - $HOME/bin/hugo version
 script:
   - $HOME/bin/hugo --gc --minify
+stages:
+  - name: test
+    if: type IN (push, pull_request)
+  - name: 'deploy releases'
+    if: tag IS present
 jobs:
   include:
     - stage: 'deploy releases'
