@@ -5,7 +5,7 @@ stages:
     if: tag IS present
 install:
   - curl -fLo "$HOME/bin/hugo_extended_Linux-64bit.tar.gz" --create-dirs https://github.com/gohugoio/hugo/releases/download/v0.56.3/hugo_extended_0.56.3_Linux-64bit.tar.gz
-  - tar -xvzf $HOME/bin/hugo_extended_Linux-64bit.tar.gz -C $HOME/bin
+  - tar -xzf $HOME/bin/hugo_extended_Linux-64bit.tar.gz -C $HOME/bin
   - $HOME/bin/hugo version
 script:
   - $HOME/bin/hugo --gc --minify
@@ -29,11 +29,3 @@ jobs:
         - $HOME/bin/gothub release -u deild -r photography-gear -t $TRAVIS_TAG -n $TRAVIS_TAG -d - < BODY.md
         - $HOME/bin/gothub upload -u deild -r photography-gear -t $TRAVIS_TAG -n "www.tar.xz" -f www.tar.xz -R
         - $HOME/bin/gothub upload -u deild -r photography-gear -t $TRAVIS_TAG -n "www.tar.xz.sha256" -f www.tar.xz.sha256 -R
-
-branches:
-  only:
-  - master
-  - /^release.*$/
-  - /^feature.*$/
-  - /^hotfix.*$/
-  - /^v[0-9]+\.[0-9]+\.[0-9]+$/
