@@ -3,7 +3,7 @@ publish = "public"
 command = "hugo --gc --minify"
 
 [context.production.environment]
-HUGO_VERSION = "v0.56.3"
+HUGO_VERSION = "v0.58.2"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
 
@@ -11,12 +11,12 @@ HUGO_ENABLEGITINFO = "true"
 command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
 
 [context.deploy-preview.environment]
-HUGO_VERSION = "v0.56.3"
+HUGO_VERSION = "v0.58.2"
 
 [context.branch-deploy]
 command = "hugo --gc --minify --enableGitInfo -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy.environment]
-HUGO_VERSION = "v0.56.3"
+HUGO_VERSION = "v0.58.2"
 HUGO_ENV = "development"
 

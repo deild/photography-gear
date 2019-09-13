@@ -1,0 +1,15 @@
+name: CI
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+      - name: Set hugo v0.58.2
+        run: |
+          curl -fLo "$HOME/bin/hugo_extended_Linux-64bit.tar.gz" --create-dirs https://github.com/gohugoio/hugo/releases/download/v0.58.2/hugo_extended_0.58.2_Linux-64bit.tar.gz
+          tar -xzf $HOME/bin/hugo_extended_Linux-64bit.tar.gz -C $HOME/bin
+          $HOME/bin/hugo version
+      - name: build
+        run: $HOME/bin/hugo --gc --minify
