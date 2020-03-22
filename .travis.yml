@@ -1,25 +1,25 @@
 language: minimal
 install:
-  - curl -fLo "$HOME/bin/hugo_extended_Linux-64bit.tar.gz" --create-dirs https://github.com/gohugoio/hugo/releases/download/v0.56.3/hugo_extended_0.56.3_Linux-64bit.tar.gz
+  - curl -fLo "$HOME/bin/hugo_extended_Linux-64bit.tar.gz" --create-dirs https://github.com/gohugoio/hugo/releases/download/v0.67.1/hugo_extended_0.67.1_Linux-64bit.tar.gz
   - tar -xzf $HOME/bin/hugo_extended_Linux-64bit.tar.gz -C $HOME/bin
   - $HOME/bin/hugo version
 script: $HOME/bin/hugo --gc --minify
 
 stages:
   - name: test
-  - name: 'deploy releases'
+  - name: "deploy releases"
     if: tag IS present
 jobs:
   include:
     - stage: test
-    - stage: 'deploy releases'
+    - stage: "deploy releases"
       after_success:
         - echo '# Journal des modifications' > BODY.md
         - echo "" >> BODY.md
         - if [[ $(git tag -l '*' | wc -l) == "1" ]]; then
-            echo "See [Changelog](https://github.com/deild/photography-gear/commits/$TRAVIS_TAG)" >> BODY.md;
+          echo "See [Changelog](https://github.com/deild/photography-gear/commits/$TRAVIS_TAG)" >> BODY.md;
           else
-            echo "See [Changelog](https://github.com/deild/photography-gear/compare/$(git tag -l '*' | tail -n2 | head -n1)...$TRAVIS_TAG)" >> BODY.md;
+          echo "See [Changelog](https://github.com/deild/photography-gear/compare/$(git tag -l '*' | tail -n2 | head -n1)...$TRAVIS_TAG)" >> BODY.md;
           fi
         - curl -fLo "$HOME/bin/gothub.bz2" --create-dirs https://github.com/deild/gothub/releases/download/v0.8.0/linux-amd64-gothub.bz2
         - bunzip2 $HOME/bin/gothub.bz2
