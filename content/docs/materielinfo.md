@@ -2,6 +2,7 @@
 
 ## Ordinateurs
 
+- MacBook Air (retina, 13 pouces, 2020) 
 - MacBook Pro (Retina, 13 pouces, fin 2013)
 - Mac mini (mi-2011)
 

@@ -11,7 +11,6 @@
 
 ## APN
 
-- Nikon Coolpix S3600
 - Canon PowerShot A3100 IS
 
 ## Caméscope numérique
@@ -20,5 +19,4 @@
 
 ## Piège photo
 
-- Bushnell Trophy
-- 2 autres piège photo
+- 4 pièges photo
