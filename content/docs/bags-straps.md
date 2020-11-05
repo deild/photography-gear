@@ -9,5 +9,5 @@
 - Sac à dos F-Stop Loka UL (37L)
 - Sac Chullanka Mercantour (16L)
 - Sac Osprey Talon 22
-- BLACKRAPID Courroie Acces Rapide RS-W1
+- BLACKRAPID Courroie Accès Rapide RS-W1
 - BLACKRAPID Yetie Small
