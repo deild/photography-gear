@@ -1,6 +1,6 @@
 # Objectifs
 
-  - [M.ZUIKO Digital ED 12-100mm] F/4 IS PRO (firm. v1.3) ø72mm, _561g_
+  - [M.ZUIKO Digital ED 12-100mm] F/4 IS PRO (firm. v1.4) ø72mm, _561g_
   - [M.ZUIKO Digital ED 12‑200mm] F3.5-6.3 (firm. vM.m) ø72mm, _455g_
   - [Panasonic 14-42mm] F3.5-5.6 (firm. v1.1) ø52mm, _110g_
   - [Panasonic 20mm] F1.7 Pancake (firm. v1.1) ø46mm, _87g_
