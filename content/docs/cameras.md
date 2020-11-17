@@ -8,7 +8,8 @@
 
 ## APN
 
-- Canon PowerShot A3100 IS
+- [Nikon Coolpix S3600](https://bit.ly/36sErjI)
+- [Canon PowerShot A3100 IS](https://bit.ly/2UfPp6H)
 
 ## Caméscope numérique
 

@@ -1,7 +1,7 @@
 # Objectifs
 
   - [M.ZUIKO Digital ED 12-100mm] F/4 IS PRO (firm. v1.4) ø72mm, _561g_
-  - [M.ZUIKO Digital ED 12‑200mm] F3.5-6.3 (firm. vM.m) ø72mm, _455g_
+  - [M.ZUIKO Digital ED 12‑200mm] F3.5-6.3 (firm. v1.0) ø72mm, _455g_
   - [Panasonic 14-42mm] F3.5-5.6 (firm. v1.1) ø52mm, _110g_
   - [Panasonic 20mm] F1.7 Pancake (firm. v1.1) ø46mm, _87g_
   - [M.ZUIKO Digital 45mm] F1.8 Macro (firm. v1.1) ø37mm, _116g_
@@ -9,7 +9,7 @@
   - [M.ZUIKO Digital ED 60mm] F2.8 Macro (firm. v1.2) ø46mm, _185g_
   - Sigma 60mm F2.8 DN ART (firm. v1.0) ø46mm
   - [Panasonic G VARIO 100-300mm] F4.0-5.6 MEGA O.I.S. (firm. v1.2) ø67mm, _520g_
-  - [M.Zuiko Digital ED 100‑400mm] F5.0-6.3 IS (firm. vM.m) ø72mm, _1,120g_
+  - [M.Zuiko Digital ED 100‑400mm] F5.0-6.3 IS (firm. v1.0  ) ø72mm, _1,120g_
 
 
 [M.ZUIKO Digital ED 60mm]: https://www.olympus.fr/site/fr/c/lenses/om_d_pen_lenses/m_zuiko/m_zuiko_digital_ed_60mm_1_2_8/m_zuiko_digital_ed_60mm_1_2_8_specifications.html
@@ -32,8 +32,10 @@
 - Gobe CPL MRC16L, JapanOptics, ø58mm
 - Gobe Kit de filtres UV + CPL MRC16L, JapanOptics, ø46mm
 - Gobe Kit de filtres UV + CPL MRC12L, JapanOptics, ø72mm
-- Gobe filtre UV MRC16L, JapanOptics, ø72mm
+- Gobe filtre UV MRC16L, JapanOptics, ø72mm _(Qt 2)_
 - Gobe Kit de filtres UV + CPL MRC12L, JapanOptics, ø37mm
+
+Plus d'information sur les produits [Gobe ici](https://mygobe.com/)
 
 ## Bagues
 

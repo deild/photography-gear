@@ -8,6 +8,7 @@
 
 - CULLMANN Trépied Nanomax 250 avec Tête 40720 + Housse
 - MeFOTO Monopode A35W Walkabout Bleu
+- LEOFOTO Monopode MP-285C
 
 ## Flash & Accessoires
 

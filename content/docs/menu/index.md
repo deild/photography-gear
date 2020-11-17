@@ -4,7 +4,7 @@ headless: true
 ---
 
 - [Boîtiers](/docs/cameras)
-- [Accessoires](/docs/accessoires)
+- [Accessoires](/docs/accessories)
 - [Sacs & Courroies](/docs/bags-straps)
 - [Objectifs](/docs/lenses)
 - [Batteries & Grips](/docs/battery-grips)
