@@ -1,7 +1,7 @@
 # Matériels de photographie
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/54c44f41-0dfe-4c48-83a0-1f8c7313ec2e/deploy-status)](https://app.netlify.com/sites/smur-photography-gear/deploys)
-[![Build Status](https://www.travis-ci.org/deild/photography-gear.svg?branch=master)](https://www.travis-ci.org/deild/photography-gear)
+![Continuous integration](https://github.com/deild/photography-gear/workflows/Continuous%20integration/badge.svg)
 
 ## Version
 

@@ -1,0 +1,23 @@
+on:
+  workflow_dispatch:
+    inputs:
+      levelOrVersion:
+        description: 'Possible level value: major, minor, patch, release, rc, beta, alpha or any valid semver version that is greater than current version'
+        required: true
+        default: 'patch'
+
+name: Release
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.DEILD_TOKEN }}
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true
+          fetch-depth: 0
+      - run: |
+          pip install --upgrade bump2version
+          bump2version --tag-message "Release {new_version}" ${{ github.event.inputs.levelOrVersion }}
