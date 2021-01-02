@@ -18,6 +18,9 @@ jobs:
         with:
           submodules: true
           fetch-depth: 0
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
       - run: |
-          pip install --upgrade bump2version
-          bump2version --tag-message "Release {new_version}" ${{ github.event.inputs.levelOrVersion }}
+          pip install --user --upgrade bump2version
+          python -m bump2version --tag-message "Release {new_version}" ${{ github.event.inputs.levelOrVersion }}
