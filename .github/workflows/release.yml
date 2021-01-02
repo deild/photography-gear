@@ -28,3 +28,4 @@ jobs:
           python -m pip install --upgrade pip
           pip install --user --upgrade bump2version
           ~/.local/bin/bump2version --verbose --tag-message "Release {new_version}" ${{ github.event.inputs.levelOrVersion }}
+          git push --tags
