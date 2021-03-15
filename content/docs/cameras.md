@@ -17,4 +17,4 @@
 
 ## Piège photo
 
-- 4 pièges photo
+- 3 pièges photo

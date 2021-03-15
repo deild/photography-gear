@@ -10,7 +10,7 @@
 | Lexar Pro 1000x     |  32 GB   | SDHC C10 UHS-II U3       | 150/75   | SD       | 2017  | _( Qt:2 )_ E-M5 MII
 | SanDisk Extreme     |  32 GB   | SDHC C10 UHS-I U3        | 90/60    | SD       | 2016  | _( Qt:2 )_ E-M10 MII
 | SanDisk Extreme Pro |  32 GB   | SDHC C10 UHS-I U3        | 95/90    | SD       | 2012  | piège photo
-| SanDisk Extreme Pro |  32 GB   | SDHC C10 UHS-I U1        | 95/20    | SD       | 2012  | HX-WA2
+| SanDisk Extreme Pro |  32 GB   | SDHC C10 UHS-I U1        | 95/20    | SD       | 2012  | Panasonic HX-WA2
 | Transcend 200x      |  64 GB   | SDXC C10 UHS-I           | 30       | SD       | 2011  | libre
 | Transcend           |   4 GB   | SDHC C10                 | 10       | SD       | 2011  | Transfert de photo
 | SanDisk Extreme Pro |   8 GB   | SDHC C10 UHS-I U1        | 95/20    | SD       | 2010  | libre
