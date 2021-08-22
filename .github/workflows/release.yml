@@ -19,7 +19,7 @@ jobs:
           submodules: true
           fetch-depth: 0
       - run: |
-          git config user.name tolva
+          git config user.name deild
           git config user.email 8457875+deild@users.noreply.github.com
       - uses: actions/setup-python@v2
         with:
