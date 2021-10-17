@@ -10,6 +10,7 @@ et ce projet adhère à la **[Gestion sémantique de version](https://semver.org
 - mise en place de ce ChangeLog
 
 ### Changed
+- utilisation de hugo v0.88.1
 - mise à jour du [code de conduite](CODE_OF_CONDUCT.md)
 
 ## [0.1.9](releases/tag/v0.1.9) - 2020-12-14 [YANKED]
