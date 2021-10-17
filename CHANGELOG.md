@@ -12,6 +12,8 @@ et ce projet adhère à la **[Gestion sémantique de version](https://semver.org
 ### Changed
 - mise à jour du [code de conduite](CODE_OF_CONDUCT.md)
 
+## [0.1.9](releases/tag/v0.1.9) - 2020-12-14 [YANKED]
+
 ## [0.1.8](releases/tag/v0.1.8) - 2020-12-14
 
 - Release initial
