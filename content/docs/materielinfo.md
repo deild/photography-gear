@@ -2,6 +2,7 @@
 
 ## Ordinateurs
 
+- Lenovo ThinkPad P14s (14 pouces, 2021), ZorinOS 16
 - MacBook Air (retina, 13 pouces, 2020)
 - MacBook Pro (Retina, 13 pouces, fin 2013)
 - MacBook Pro (Retina, 13 pouces, fin 2013), Dual boot avec ZorinOS 15.3

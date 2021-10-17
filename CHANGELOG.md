@@ -6,7 +6,9 @@ et ce projet adhère à la **[Gestion sémantique de version](https://semver.org
 
 ## [Unreleased]
 ### Added
+- nouveau matériel informatique : Lenovo ThinkPad P14s
 - mise en place de ce ChangeLog
+
 ### Changed
 - mise à jour du [code de conduite](CODE_OF_CONDUCT.md)
 
