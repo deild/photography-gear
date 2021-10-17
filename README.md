@@ -3,13 +3,10 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/54c44f41-0dfe-4c48-83a0-1f8c7313ec2e/deploy-status)](https://app.netlify.com/sites/smur-photography-gear/deploys)
 ![Continuous integration](https://github.com/deild/photography-gear/workflows/Continuous%20integration/badge.svg)
 
-## Version
+## [Jounal des modifications](CHANGELOG.md)
 
-Ce projet applique la [gestion sémantique de version][semver] et des [messages de commit conventionnels][conventionalcommits].
 
-## le modèle de branchement
-
-Ce projet utilise un [modèle de branchement et de workflow Git simple][simplebranchingmodel]
+## [Modèle de flux de travail](https://guides.github.com/introduction/flow/)
 
 ## Licence
 
@@ -18,5 +15,3 @@ Partage dans les Mêmes Conditions 4.0 International ([CC-BY-NC-SA 4.0][cc-by-nc
 
 [semver]: https://semver.org/lang/fr/
 [cc-by-nc-sa 4.0]: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.fr
-[conventionalcommits]: https://www.conventionalcommits.org/fr/v1.0.0-beta.4/
-[simplebranchingmodel]: https://gist.github.com/deild/05bc4794de1aefc7b50d62ab0a25ef55

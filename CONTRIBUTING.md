@@ -1,7 +1,7 @@
 # Conseils pour les contributeurs
 
-- S'il vous plaît **faites des requêtes de tirage ([Pull requests]) sur la branche `master`**.
-- Si vous faites des **changements dans des fichiers pour lesquels l'integration Travis CI n'est pas pertinent**,
+- S'il vous plaît **faites des requêtes de tirage ([Pull requests]) sur la branche `main`**.
+- Si vous faites des **changements dans des fichiers pour lesquels l'integration continue n'est pas pertinente**,
   veuillez **ajouter `[ci skip]` à la fin du message de livraison**.
 - Signaler les bogues à l'aide de [GitHub Issues].
 - Première contribution à ce projet ? Lisez notre [Charte Contributeurs].
@@ -18,4 +18,4 @@ Dès qu'un des contributeurs verra cette demande, il évaluera le problème, ajo
 
 [github issues]: https://github.com/deild/photography-gear/issues
 [pull requests]: https://github.com/deild/photography-gear/pulls
-[charte contributeurs]: https://github.com/deild/photography-gear/blob/master/CODE_OF_CONDUCT.md
+[charte contributeurs]: https://github.com/deild/photography-gear/blob/main/CODE_OF_CONDUCT.md
