@@ -4,7 +4,6 @@
 
 - [Olympus OM-D E-M5 Mark II](https://bit.ly/3peiHAH) (firm. v4.1) _469 g_
 - [Olympus OM-D E-M10 Mark II](https://bit.ly/35aTXBv) (firm. v1.4) _390 g_
-- [Panasonic LUMIX DMC-G3](https://bit.ly/3lstFk9) (firm. v1.2) _552 g_
 
 ## APN
 
@@ -17,4 +16,4 @@
 
 ## Piège photo
 
-- 3 pièges photo
+- 2 pièges photo

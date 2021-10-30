@@ -6,6 +6,10 @@ et ce projet adhère à la **[Gestion sémantique de version](https://semver.org
 
 ## [Unreleased]
 
+## [0.1.11] - 2021-10-30
+### Removed
+- vendu Kit Panasonic G3 et ses objectifs (14-42 & 45-200)
+
 ## [\[0.1.10\]](https://github.com/deild/photography-gear/tree/v0.1.10) - 2021-10-17
 ### Added
 - nouveau matériel informatique : Lenovo ThinkPad P14s
