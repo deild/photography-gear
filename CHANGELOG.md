@@ -6,6 +6,11 @@ et ce projet adhère à la **[Gestion sémantique de version](https://semver.org
 
 ## [Unreleased]
 
+## [0.1.12] - 2021-12-18
+### Changed
+- mise à jour cartes mémoire & clés USB
+- mise à jour de hugo : 0.91.0
+
 ## [0.1.11] - 2021-10-31
 ### Added
 - liste des clés USB dans la page cartes mémoire

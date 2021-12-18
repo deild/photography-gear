@@ -24,11 +24,11 @@
 
 | Modèle               | Capacité | Norme   | Année | Usage
 | :------------------- | :------: | :-----: | :---: | ----:
-| SanDisk cruzer blade |  16 GB   | USB 2.0 |       | Fedora Workstation 34 x86_64
+| SanDisk cruzer blade |  16 GB   | USB 2.0 |       | Rocky Linux 8.5 x86_64
 | SanDisk cruzer       |   4 GB   | USB 2.0 |       | Zorin 16 x86_64
 | Verbatim N GO        |  16 GB   | USB 3.0 | 2021  | Zorin lite 15.3 i386_32
 | Integral             |  16 GB   | USB 2.0 |       | Libre
-| SOFTEAM              |   8 GB   | USB 2.0 |       | Endeavor OS x86_64
+| SOFTEAM              |   8 GB   | USB 2.0 |       | Fedora Workstation 35 x86_64
 | SEOLIS               |   2 GB   | USB 2.0 |       | Lunbuntu 18.04.5 LTS i386_32
 | CCI                  |   2 GB   | USB 2.0 |       | Manjaro 18.04 x86_64
 | Intuix               |   1 GB   | USB 1.0 |       | libre 
