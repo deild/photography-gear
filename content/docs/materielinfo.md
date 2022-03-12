@@ -2,12 +2,14 @@
 
 ## Ordinateurs
 
-- Lenovo ThinkPad P14s Gen1 (14 pouces, 2021), Fedora 34
+- Lenovo ThinkPad P14s Gen1 (14 pouces, 2021), Fedora 35
 - MacBook Air (retina, 13 pouces, 2020)
 - MacBook Pro (Retina, 13 pouces, fin 2013)
 - MacBook Pro (Retina, 13 pouces, fin 2013), Dual boot avec ZorinOS 15.3
 - Mac mini (mi-2011) Dual boot avec EndeavourOS
+- Mac mini (2012) sous proxmox
 - iMac 24" (2007) Dual boot avec ZorinOS 15.3 32bits
+- 2 Raspberry Pi 4 (8G), Debian 11 et Rocky Linux 8.5
 
 ## disques dur
 

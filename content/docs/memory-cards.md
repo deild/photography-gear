@@ -25,7 +25,7 @@
 | Modèle               | Capacité | Norme   | Année | Usage
 | :------------------- | :------: | :-----: | :---: | ----:
 | SanDisk cruzer blade |  16 GB   | USB 2.0 |       | Rocky Linux 8.5 x86_64
-| SanDisk cruzer       |   4 GB   | USB 2.0 |       | Zorin 16 x86_64
+| SanDisk cruzer       |   4 GB   | USB 2.0 |       | Zorin Core 16.1 x86_64
 | Verbatim N GO        |  16 GB   | USB 3.0 | 2021  | Zorin lite 15.3 i386_32
 | Integral             |  16 GB   | USB 2.0 |       | Libre
 | SOFTEAM              |   8 GB   | USB 2.0 |       | Fedora Workstation 35 x86_64
