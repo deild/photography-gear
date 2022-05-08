@@ -9,6 +9,7 @@
 
 - [Nikon Coolpix S3600](https://bit.ly/36sErjI)
 - [Canon PowerShot A3100 IS](https://bit.ly/2UfPp6H)
+- [Canon Pwershot ZOOM](https://www.canon.fr/cameras/canon-powershot-zoom/) Blanc _145g_ (2022/05)
 
 ## Caméscope numérique
 
