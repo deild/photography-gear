@@ -24,12 +24,15 @@
 
 | Modèle                | Capacité | Norme   | Année | Usage
 | :-------------------  | :------: | :-----: | :---: | ----:
+| Lexar                 |  64 GB   | USB 2.0 | 2022  | Libre
+| Lexar                 |  64 GB   | USB 2.0 | 2022  | -
+| Corsair Flash voyager |   8 GB   | USB 2.0 |       | ISO windows 10
 | Corsair Flash voyager |  32 GB   | USB 3.0 |       | Divers données
-| SanDisk cruzer blade  |  16 GB   | USB 2.0 |       | Windows 10
+| SanDisk cruzer blade  |  16 GB   | USB 2.0 |       | -
 | SanDisk cruzer        |   4 GB   | USB 2.0 |       | Zorin Core 16.1 x86_64
 | Verbatim N GO         |  16 GB   | USB 3.0 | 2021  | Zorin lite 15.3 i386_32
 | Integral              |  16 GB   | USB 2.0 |       | Debian 11
-| SOFTEAM               |   8 GB   | USB 2.0 |       | Fedora Workstation 36 Beta x86_64
+| SOFTEAM               |   8 GB   | USB 2.0 |       | Windows 10 PGX
 | SEOLIS                |   2 GB   | USB 2.0 |       | Lunbuntu 18.04.5 LTS i386_32
 | CCI                   |   2 GB   | USB 2.0 |       | Sauvegardes données
-| Intuix                |   1 GB   | USB 1.0 |       | libre 
+| Intuix                |   1 GB   | USB 1.0 |       | libre

@@ -18,6 +18,6 @@
 - Samsung M3 DD 1 To Usb 3.0 en exFat - 1 partition
 - Western Digital HDD 500 Go Usb 2.0 - W 24,5 MB/s R 33,8 MB/s - TimeMachine du MacBook Air
 - Western Digital My Cloud 3 To
-- DD 1,5 To, boitier Usb 3.0 + Alim - Sauvegarde du My Cloud
+- HDD 1,5 To, boitier Usb 3.0 + Alim - Sauvegarde du My Cloud
 - Samsung HDD 500 Go, boitier Usb 3.0 - Timeshift Mac mini
-- Toshiba HDD 500 Go, boitier Usb 3.0
+- Toshiba HDD 500 Go, boitier Usb 3.0 
