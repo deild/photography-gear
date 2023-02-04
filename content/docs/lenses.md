@@ -12,7 +12,6 @@
 [M.ZUIKO Digital ED 60mm]: https://www.olympus.fr/site/fr/c/lenses/om_d_pen_lenses/m_zuiko/m_zuiko_digital_ed_60mm_1_2_8/m_zuiko_digital_ed_60mm_1_2_8_specifications.html
 [M.ZUIKO Digital 45mm]: https://www.olympus.fr/site/fr/c/lenses/om_d_pen_lenses/m_zuiko/m_zuiko_digital_45mm_118/m_zuiko_digital_45mm_118_specifications.html
 [Panasonic G VARIO 100-300mm]: https://www.panasonic.com/fr/consumer/appareils-photo-et-camescopes/objectifs/objectifs-lumix/h-fsa100300.html
-[M.ZUIKO Digital ED 75‑300mm]: https://www.olympus.fr/site/fr/c/lenses/om_d_pen_lenses/m_zuiko/m_zuiko_digital_ed_75_300mm_1_4_8_6_7_ii/m_zuiko_digital_ed_75_300mm_1_4_8_6_7_ii_specifications.html
 [M.ZUIKO Digital ED 12-100mm]: https://www.olympus.fr/site/fr/c/lenses/om_d_pen_lenses/m_zuiko_pro/m_zuiko_digital_ed_12_100mm_1_4_0_is_pro/m_zuiko_digital_ed_12_100mm_1_4_0_is_pro_specifications.html
 [M.ZUIKO Digital ED 12‑200mm]: https://www.olympus.fr/site/fr/c/lenses/om_d_pen_lenses/m_zuiko/m_zuiko_digital_12_200mm_f3563/index.html
 [M.Zuiko Digital ED 100‑400mm]: https://www.olympus.fr/site/fr/c/lenses/om_d_pen_lenses/m_zuiko/m_zuiko_digital_ed_100_400mm_f5_0_6_3_is/index.html

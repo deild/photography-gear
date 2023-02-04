@@ -21,7 +21,6 @@
 | _Sans marque_       |   2 GB   |                          |          | microSD  |       | libre
 | _Sans marque_       |   1 GB   |                          |          | microSD  |       | libre
 
-
 | Modèle                | Capacité | Norme   | Année | Usage
 | :-------------------  | :------: | :-----: | :---: | ----:
 | Lexar                 |  64 GB   | USB 2.0 | 2022  | Libre
