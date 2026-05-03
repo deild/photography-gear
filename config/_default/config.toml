@@ -1,15 +1,15 @@
 baseURL = "https://smur-photography-gear.netlify.com/"
-languageCode = "en-us"
+locale = "fr_FR"
 title = "Mon matériel de photographie"
-theme =  "book"
-disableKinds = ["taxonomy", "taxonomyTerm"]
+theme =  "hugo-book"
+disableKinds = ["taxonomy"]
 
 disablePathToLower = true
 enableGitInfo = true
 
 [params]
     # show or hide table of contents for page
-    BookShowToC = true
+    BookShowToC = false
 
     # Set bundle to render side menu
     # if not specified file structure and weights will be used
@@ -18,4 +18,3 @@ enableGitInfo = true
     # Set source repository location.
     # Used for 'Last Modified' and 'Edit this page' links.
     BookRepo = "https://github.com/deild/photography-gear"
-
